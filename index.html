@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+планування, delivery, комунікацію зі стейкхолдерами та розвиток продуктів.
+Цей портал є внутрішнім джерелом правил, стандартів і корисної інформації.
+</p>
+</div>
+</section>
+
+
+<!-- Processes -->
+<section id="process" class="bg-black py-16">
+<div class="max-w-6xl mx-auto px-4">
+<h3 class="text-2xl font-semibold mb-6 text-primary">Основні процеси</h3>
+<ul class="list-disc list-inside space-y-3 text-gray-400">
+<li>Запуск та ініціація проєктів</li>
+<li>Планування roadmap та спринтів</li>
+<li>Управління ризиками та змінами</li>
+<li>Delivery та контроль дедлайнів</li>
+<li>Комунікація з бізнесом і командами</li>
+</ul>
+</div>
+</section>
+
+
+<!-- FAQ -->
+<section id="faq" class="py-16">
+<div class="max-w-6xl mx-auto px-4">
+<h3 class="text-2xl font-semibold mb-6 text-primary">FAQ для PM / Product</h3>
+<div class="space-y-4">
+<div class="border border-gray-700 rounded-lg">
+<button class="w-full text-left px-4 py-3 font-medium faq-toggle">
+Де описаний стандартний lifecycle проєкту?
+</button>
+<div class="hidden px-4 pb-4 text-gray-400">
+У Confluence у розділі Project Management Framework.
+</div>
+</div>
+<div class="border border-gray-700 rounded-lg">
+<button class="w-full text-left px-4 py-3 font-medium faq-toggle">
+Хто приймає рішення щодо пріоритетів?
+</button>
+<div class="hidden px-4 pb-4 text-gray-400">
+Пріоритети формуються продактами спільно з бізнес-стейкхолдерами.
+</div>
+</div>
+<div class="border border-gray-700 rounded-lg">
+<button class="w-full text-left px-4 py-3 font-medium faq-toggle">
+Що робити при ризику зриву дедлайну?
+</button>
+<div class="hidden px-4 pb-4 text-gray-400">
+Ескалювати ризик, оновити план та повідомити стейкхолдерів.
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Contacts -->
+<section id="contacts" class="bg-black py-16">
+<div class="max-w-6xl mx-auto px-4">
+<h3 class="text-2xl font-semibold mb-4 text-primary">Контакти</h3>
+<p class="text-gray-400">PM Lead: pm.lead@company.ua</p>
+<p class="text-gray-400">Product Lead: product.lead@company.ua</p>
+<p class="text-gray-400">Slack: #ap-project-team</p>
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark border-t border-primary text-gray-500 text-sm">
+<div class="max-w-6xl mx-auto px-4 py-6 text-center">
+© 2025 AP Project Team — Internal Use Only
+</div>
+</footer>
+
+
+<script>
+document.querySelectorAll('.faq-toggle').forEach(button => {
+button.addEventListener('click', () => {
+const content = button.nextElementSibling;
+content.classList.toggle('hidden');
+});
+});
+</script>
+
+
+</body>
+</html>
